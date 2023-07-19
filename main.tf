@@ -5,7 +5,7 @@ module "FlexibleServer" {
   location                      = azurerm_resource_group.example.location
   postgre_flexible_server_name  = "example-psqlflexibleserver"
   administrator_login           = "psqladmin"
-  administrator_password        = "H@Sh1CoR3!"
+  administrator_password        = "password@pgsql"
   postgre_sku_name              = "GP_Standard_D4s_v3"
   postgre_version               = 15
   geo_redundant_backup_enabled  = true
